@@ -5,7 +5,7 @@
 		<div class="col-md-12 col-sm-12 col-xs-12">
 			<div class="row">
 				<div class="data col-md-3 col-sm-3 col-xs-3 text-center">
-					<a href="{{$hekim->id}}">
+					<a href="{{url('hekim',$hekim->id)}}">
 						<img src="../{{$hekim->avatar}}" alt="">
 					</a>
 					<div class="date">

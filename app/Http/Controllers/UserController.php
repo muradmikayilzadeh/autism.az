@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\User;
+use App\Hekimler;
+use App\Meqale;
 
 class UserController extends Controller
 {
@@ -100,5 +102,12 @@ class UserController extends Controller
 
         $user->save();
         return back();
+    }
+
+    public function findHekim($id)
+    {
+        $hekim=Hekimler::find($id);
+        $meqaleler=Meqale::where('hekim_id',$id)->get();
+        return view('kids.profile.hekim',compact('hekim','meqaleler'));
     }
 }
