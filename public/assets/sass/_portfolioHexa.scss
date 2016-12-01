@@ -1,0 +1,97 @@
+#portfolioHexa {
+  min-height: 670px;
+  background: #F0F3F3;
+  overflow: hidden; 
+  background-image: url('../images/footer_bg.png');
+
+.hexa {
+    margin-top: 30px;
+ }
+ .col-md-3{
+  float: left;
+  display:inline-block;
+ }
+.hexagon {
+    height: 250px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    width: 250px;
+    z-index: 0;
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+  }
+  .hexagon img {
+      height: 330px;
+      width: 100%;
+      transition: all .4s ease;
+      overflow: hidden; 
+    }
+    .margin{
+      margin-top: 40px;
+    }
+   .marginLeft{
+    margin-left: 30px;
+   }
+    .hexagon i {
+      opacity: 0;
+      display: block;
+      margin: auto;
+      margin-top: -237px;
+      padding-left:12px;
+      font-size: 40px;
+      width: 60px;
+      height: 55px;
+      background: white;
+      padding-top: 13px;
+      cursor: pointer;
+      transition: all .4s ease;
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    }
+    .hexagon i:hover {
+        color: black; 
+      }
+
+
+
+  .one {
+    background: red;
+    color: #F2A5BC; 
+  }
+  .through{
+    background: blue;
+    color: #F2A5BC; 
+  }
+    .two {
+    background: #F2A5BC;
+    color: #F2A5BC; 
+  }
+    .three {
+    background: #9692C6;
+    color: #F2A5BC; 
+  }
+
+    .four {
+    background: #D492C6;
+    color: #F2A5BC; 
+  }
+     .five {
+    background: yellow;
+    color: #F2A5BC; 
+  }
+
+    .six {
+    background: #FF7C0D;
+    color: #F2A5BC; 
+  }
+    .seven {
+    background: #33DC73;
+    color: #F2A5BC; 
+  }
+
+    .eight {
+    background: purple;
+    color: #F2A5BC; 
+  }
+  }

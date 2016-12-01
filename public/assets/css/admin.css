@@ -1,0 +1,78 @@
+body{
+	background: #F7F7F9;
+}
+.col-md-2{
+	background: #996DDC;
+}
+	.col-md-2 img{
+		height: 80px;
+		margin-left: 7%;
+	}
+	.col-md-2 ul{
+		margin-left: -20px;
+	}
+	.col-md-2 ul li{
+		list-style-type: none;
+		color:white;
+		font-size: 17px;
+		float: left;
+		margin-top: 20px;
+		border-radius: 5px;
+		cursor:pointer;
+	}
+	.col-md-2 ul li:hover{
+		background: #A489D8;
+	}
+		.col-md-2 ul li i{
+			display: inline-block;
+			float: left;
+			padding: 3px;
+			padding-top: 10px;
+		}
+		.col-md-2 ul li a,.col-md-2 ul li p{
+			color:white;
+			display: inline-block;
+			padding:3px;
+			padding-top: 10px;
+		}
+
+
+	.col-md-10 .firstPanel{
+		padding: 10px;
+	}
+		.col-md-10 .firstPanel i{
+			padding-left: 10px;
+		}
+
+
+	.col-md-10 .stats i{
+		font-size: 300px;
+		color:brown;
+	}
+		.col-md-10 .stats .small{
+			color:gray;
+		}
+
+	
+	.col-md-10 .meqale ul{
+		margin-left: -40px;
+	}
+		.col-md-10 .meqale li{
+			list-style-type: none;
+		}
+
+	.col-md-10 .tables .panel{
+		background:#996DDC;
+		color:white; 
+		margin:5px;
+	}
+		.col-md-10 .tables .panel p{
+			font-size:20px;
+			font-weight: bold;
+			margin:0; 
+			padding:0;
+		}
+
+	.col-md-10 .games img{
+		height: 60px;
+	}

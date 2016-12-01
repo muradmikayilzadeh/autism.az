@@ -1,0 +1,100 @@
+#header{
+	background-image:url('../../images/bg.png');
+	.ep{
+		margin-top:30px;
+		li{
+			text-align: right;
+			list-style-type: none;
+		}
+		.email{
+			span{
+				color:#378C99;
+			}
+		}
+	}
+	.menu{
+		padding:0;
+		li{
+			display: inline-block;
+			padding:10px;
+			font-size: 16px;
+			line-height: 40px;
+			text-align: center;
+			a{
+				color:black;
+			}
+		}
+		.red{
+			border-top:4px solid #F27B81;
+			a:hover{
+				color:#F27B81;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.orange{
+			border-top:4px solid #F7C44E;
+			a:hover{
+				color:#F7C44E;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.green{
+			border-top:4px solid #AEC158;
+			a:hover{
+				color:#AEC158;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.yellow{
+			border-top:4px solid #FCE480;
+			a:hover{
+				color:#FCE480;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.skyblue{
+			border-top:4px solid #4CBCD4;
+			a:hover{
+				color:#4CBCD4;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.darkblue{
+			border-top:4px solid #4C7297;
+			a:hover{
+				color:#4C7297;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.purple{
+			border-top:4px solid #B0B6FB;
+			a:hover{
+				color:#B0B6FB;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.purplesecond{
+			border-top:4px solid #DD72B3;
+			a:hover{
+				color:#DD72B3;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+		.purplethird{
+			border-top:4px solid #FCC6E6;
+			a:hover{
+				color:#FCC6E6;
+				text-decoration: none;
+				transition: all .3s ease;
+			}
+		}
+	}
+}

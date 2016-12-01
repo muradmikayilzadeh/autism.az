@@ -1,0 +1,50 @@
+
+#ourFounder{
+	 background-image: url('../images/footer_bg.png');
+	.founderImg {
+	// width: 116px;
+	// height: 108px;
+	// background-image: url('../images/founder.jpg');
+	// display:flex;
+-webkit-clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%);
+clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%);
+
+}
+.founderImg{
+float:left;
+}
+h2,h3{
+	font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+p:nth-child(2){
+	font-size:40px;
+}
+p{
+clear:both;
+font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+.boxx{
+	float:left;
+	padding-left: 25px;
+}
+.col-md-12 p{
+height:200px;
+	overflow-y:scroll;
+	background-color: #008C99;
+	border-radius:15px;
+	color:white;
+	font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+
+}
+#sponsors{
+	background-image:url('../images/header_bg.png');
+	img{
+		margin-right: 50px;
+		width: 200px;
+		height: 100px;
+	}
+}

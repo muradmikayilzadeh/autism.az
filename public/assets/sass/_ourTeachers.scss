@@ -1,0 +1,81 @@
+.box{
+  border:1px solid red;
+}
+#staffHexa {
+   background:#EFF3F4;
+   min-height:565px;
+   h4:hover{
+   	color:#008C99;
+   }
+   h6:hover{
+   	color:#008C99;
+   }
+h2{
+		font-family: 'Bubblegum Sans', cursive;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.line{
+		display: block;
+		margin:0 auto;
+	}
+.hexa {
+    margin-top: 30px;
+ }
+.hexagon {
+    height: 229px;
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
+-webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+  }
+  .hexagon img {
+      height: 300px;
+      width: 100%;
+      transition: all .4s ease;
+      overflow: hidden; 
+
+    }
+    .hexagon i {
+      opacity: 0;
+      display: block;
+      margin: auto;
+      margin-top: -210px;
+      font-size: 40px;
+      width: 70px;
+      height: 60px;
+      background: white;
+      padding-top: 14px;
+      cursor: pointer;
+      transition: all .4s ease;
+-webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+  }
+    .hexagon i:hover {
+        color: black; 
+      }
+
+
+
+.col-md-3{
+  float: left;
+}
+  .one {
+    background: red;
+    color: #F2A5BC; 
+  }
+  .through{
+  	background-color:yellow;
+  	color: #F2A5BC; 
+  }
+  .two {
+    background: #F2A5BC;
+    color: #F2A5BC; 
+  }
+    .three {
+    background: #9692C6;
+    color: #F2A5BC; 
+  }
+
+  }

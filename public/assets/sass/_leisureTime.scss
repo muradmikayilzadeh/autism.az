@@ -1,0 +1,62 @@
+#leisureTime{
+	background-image: url('../images/header_bg.png');	
+	height:560px;
+.container-fluid {
+background-color: #73D5F0;
+height: 105px;
+h2{
+padding-top: 35px;
+font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+h6{
+float: right;
+padding-top:35px;
+font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+.clearBoth{
+	 clear: both;
+}
+}
+#sliderLeisure{
+padding-top: 79px;
+ background-image: url('../images/footer_bg.png');		
+}
+h2{
+	margin-top:-2px;
+	margin-bottom: 21px;
+	font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+p{
+	font-size:12px;
+	line-height:22px;
+	margin-bottom: 31px;
+	font-family: 'Bubblegum Sans', cursive;
+font-weight: normal;
+}
+
+.btn{
+  width: 117px;
+  height: 44px;
+  border-radius: 1px;
+  background-color: #008C99;
+  color: white;
+}
+.btn:hover{
+	background-color:#555555;
+	color:white;
+	transition: 1s;
+}
+i{
+	border:1 px solid white;
+	border-radius: 20px;
+	background-color:white;
+	color: #008C99;
+}
+#slider{
+	float:right;
+}
+
+}

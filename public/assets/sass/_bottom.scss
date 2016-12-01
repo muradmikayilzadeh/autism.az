@@ -1,0 +1,24 @@
+#about{
+	background-image:url('../../images/footerbg.png');
+	.col-md-3{
+		margin-top: 40px;
+		margin-bottom: 40px;
+		h4{
+			font-family: 'Bubblegum Sans', cursive;
+		}
+	}
+	.kidsLife{
+		font-size: 15px;
+		ul{
+			margin-left:-45px;
+			li{
+				list-style-type: none;
+				i{
+					color:#008C99;
+					padding:5px;
+
+				}
+			}
+		}
+	}
+}
