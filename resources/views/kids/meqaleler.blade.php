@@ -1,14 +1,20 @@
 @extends('layouts.index')
 @section('content')
+@php
+use App\Hekimler;
+@endphp
 <section id="blog" class="col-md-12 col-sm-12 col-xs-12">
 	<div class="container text-center">
 		@foreach($meqaleler as $meqale)
+		@php
+			$hekim=Hekimler::where('id',$meqale->hekim_id)->first();
+		@endphp
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<div class="row">
 				<div class="data col-md-3 col-sm-3 col-xs-3 text-center">
-					<a href="{{url('hekimler/find',$meqale->id)}}"><img src="{{url('assets/images/service1.jpg')}}" alt=""></a>
+					<a href="{{url('hekimler/find',$meqale->id)}}"><img src="{{$hekim->avatar}}" alt=""></a>
 					<div class="date">
-						<p>{{$meqale->created_at}}</p>
+						<p>{{$meqale->created_at->diffForHumans()}}</p>
 						
 					</div>
 					<div class="comments date">

@@ -120,7 +120,13 @@ class AdminController extends Controller
         $hekim->email=$request->email;
         $hekim->password=$request->password;
         $hekim->save();
-        $hekimler=Hekimler::all();
+        
+        $meqale=new Meqale;
+        $meqale->title='Salam';
+        $meqale->text="Salam autism.az istifadəçiləri. Artıq mən də sizə qoşuldum! Hörmətlə,".$request->name.' '.$request->surname;
+        $meqale->hekim_id=$hekim->id;
+        $meqale->picture='images/logo.png';
+        $meqale->save();
         return redirect('admin/hekimler');
     }
 

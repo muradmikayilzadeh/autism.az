@@ -31,7 +31,7 @@ class MeqaleController extends Controller
      */
     public function meqaleler()
     {
-        $meqaleler=Meqale::all();
+        $meqaleler=Meqale::orderBy('created_at','desc')->get();
         return view('kids.meqaleler',compact('meqaleler'));
     }
 

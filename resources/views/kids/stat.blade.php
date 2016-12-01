@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="data col-md-3 col-sm-3 col-xs-3 text-center">
 					<a href="{{$hekim->id}}">
-						<img src="{{url('assets/images/service1.jpg')}}" alt="">
+						<img src="../{{$hekim->avatar}}" alt="">
 					</a>
 					<div class="date">
 						<p>{{$meqale->created_at->diffForHumans()}}</p>
