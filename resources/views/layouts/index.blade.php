@@ -57,9 +57,17 @@
                     <li class="orange"><a href="{{url('/about')}}">Haqqımızda</a></li>
                     <li class="green"><a href="{{url('/portfolio')}}">Oyunlar</a></li>
                     <li class="darkblue"><a href="{{url('/meqale')}}">Məqalələr</a></li>
-                    <li class="purple pull-right" ><a href="{{url('/login')}}">Daxil ol</a></li>
-                    <li class="purplesecond pull-right"><a href="{{url('/register')}}">Qeydiyyatdan keç</a></li>
-                    {{-- <li class="purplethird pull-right"><a href="{{url('/logout')}}">Çıxış et</a></li> --}}
+
+
+                    @if(!isset($_SESSION['userSistemde']))
+                        <li class="purple pull-right" ><a href="{{url('/login')}}">Daxil ol</a></li>
+                         <li class="purplesecond pull-right"><a href="{{url('/register')}}">Qeydiyyatdan keç</a></li>
+
+                         @else
+                         <li class="purple pull-right" ><a href="{{url('/logout')}}">Çıxış et</a></li>
+                         <li class="purplesecond pull-right"><a href="{{url('/profile')}}">Profilim</a></li>
+                    @endif
+                    
                 </ul>
             </div>
             

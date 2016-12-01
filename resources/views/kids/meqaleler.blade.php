@@ -1,18 +1,14 @@
 @extends('layouts.index')
 @section('content')
-<?php
-use App\Meqale;
-$parts=Meqale::all();
-?>
 <section id="blog" class="col-md-12 col-sm-12 col-xs-12">
 	<div class="container text-center">
-		@foreach($parts as $part)
+		@foreach($meqaleler as $meqale)
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<div class="row">
 				<div class="data col-md-3 col-sm-3 col-xs-3 text-center">
-					<a href="{{url('hekimler/find',$part->id)}}"><img src="{{url('assets/images/service1.jpg')}}" alt=""></a>
+					<a href="{{url('hekimler/find',$meqale->id)}}"><img src="{{url('assets/images/service1.jpg')}}" alt=""></a>
 					<div class="date">
-						<p>{{$part->created_at->diffForHumans()}}</p>
+						<p>{{$meqale->created_at}}</p>
 						
 					</div>
 					<div class="comments date">
@@ -25,11 +21,11 @@ $parts=Meqale::all();
 				</div>
 				<div class="textAndPhoto col-md-9 text-left col-sm-9 col-xs-9">
 					<div class="row">
-						<img src="{{$part->picture}}" class="img img-responsive">
-						<a href="{{url('stat',$part->id)}}"><h3><b>{{$part->title}}</b></h3></a>
-						<p>{{substr($part->text,0,350)}}</p>
+						<img src="{{$meqale->picture}}" class="img img-responsive">
+						<a href="{{url('stat',$meqale->id)}}"><h3><b>{{$meqale->title}}</b></h3></a>
+						<p>{{substr($meqale->text,0,350)}}</p>
 					</div>
-					<a href="{{url('stat',$part->id)}}"><button >Ətraflı <i class="fa fa-chevron-right"></i></button></a>
+					<a href="{{url('stat',$meqale->id)}}"><button >Ətraflı <i class="fa fa-chevron-right"></i></button></a>
 				</div>
 			</div>
 		</div>

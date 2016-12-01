@@ -17,6 +17,11 @@
                              @endif
                             <input required type="text" name="name" placeholder="Ad" class="form-control"><br>
                             <input required type="text" name="surname" placeholder="Soyad" class="form-control"><br>
+                            <select name="gender" class="form-control">
+                                <option value="0">Kişi</option>
+                                <option value="1">Qadın</option>
+                            </select>
+                            <br>
                             <input required type="email" name="email" placeholder="E-poçt ünvanı" class="form-control"><br>
                             <input required type="password" name="password" placeholder="Şifrə" class="form-control">
                             <br>

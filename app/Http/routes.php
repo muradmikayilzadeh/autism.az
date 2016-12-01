@@ -42,6 +42,11 @@ Route::get('/stat/{id}', 'StatController@find');
 // --------------------------LOGIN AND REGISTER---------------------------------------
 Route::post('/user-save', 'UserController@register');
 Route::post('/user-check', 'UserController@login');
+Route::get('/logout', 'UserController@logout');
+if(isset($_SESSION['userSistemde'])){
+	Route::get('/profile', 'UserController@myProfile');
+	Route::post('/profile/update', 'UserController@update');	
+}
 
 // --------------------------ADMİN PANEL ROUTELERİ---------------------------------------
 Route::get('/admin/login', 'AdminController@login');
@@ -87,6 +92,4 @@ if(isset($_SESSION['hekimTrue'])){
 }
 
 
-Route::get('/meqale',function(){
-	return view('kids.meqaleler');
-});
+Route::get('/meqale','MeqaleController@meqaleler');
