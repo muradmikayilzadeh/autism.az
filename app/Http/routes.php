@@ -47,6 +47,7 @@ Route::get('/hekim/{id}', 'UserController@findHekim');
 if(isset($_SESSION['userSistemde'])){
 	Route::get('/profile', 'UserController@myProfile');
 	Route::post('/profile/update', 'UserController@update');
+	Route::post('/comment-save', 'UserController@comment');
 }
 
 // --------------------------ADMİN PANEL ROUTELERİ---------------------------------------

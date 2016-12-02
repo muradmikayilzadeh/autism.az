@@ -9,6 +9,7 @@ use App\Http\Requests;
 use App\User;
 use App\Hekimler;
 use App\Meqale;
+use App\Comment;
 
 class UserController extends Controller
 {
@@ -109,5 +110,15 @@ class UserController extends Controller
         $hekim=Hekimler::find($id);
         $meqaleler=Meqale::where('hekim_id',$id)->get();
         return view('kids.profile.hekim',compact('hekim','meqaleler'));
+    }
+
+    public function comment(Request $request)
+    {
+        $new=new Comment;
+        $new->text=$request->text;
+        $new->article_id=$request->id;
+        $new->user_id=$_SESSION['userId'];
+        $new->save();
+        return back();
     }
 }
