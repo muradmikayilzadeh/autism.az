@@ -43,10 +43,10 @@ Route::get('/stat/{id}', 'StatController@find');
 Route::post('/user-save', 'UserController@register');
 Route::post('/user-check', 'UserController@login');
 Route::get('/logout', 'UserController@logout');
+Route::get('/hekim/{id}', 'UserController@findHekim');
 if(isset($_SESSION['userSistemde'])){
 	Route::get('/profile', 'UserController@myProfile');
-	Route::post('/profile/update', 'UserController@update');	
-	Route::get('/hekim/{id}', 'UserController@findHekim');
+	Route::post('/profile/update', 'UserController@update');
 }
 
 // --------------------------ADMİN PANEL ROUTELERİ---------------------------------------

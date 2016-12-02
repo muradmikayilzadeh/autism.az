@@ -28,6 +28,16 @@
 			color:white;
 			font-family: 'Bubblegum Sans', cursive;
 		}
+		.back2 a{
+			color:white;
+			font-size: 17px;
+			font-family:'Bubblegum Sans', cursive;
+			text-decoration: none;
+
+		}
+		.back2 a:hover{
+			color:#CF571B;
+		}
 </style>
 <div class="back container-fluid">
 	<div class="container">	
@@ -38,6 +48,19 @@
 		<p style="font-size: 15px" class="text-right">{{$hekim->haqqinda}}</p>
 
 		<p style="font-size: 15px" class="text-right">{{count($meqaleler)}} məqalənin müəllifidir.</p>
+
+
+	</div>
+</div>
+
+<div class="back2 container-fluid">
+	<div class="container">
+		<h1 class="text-center">Məqalələr</h1>
+		@foreach($meqaleler as $meqale)
+			<a href="{{url('/stat',$meqale->id)}}">
+				{{$meqale->title}}
+			</a><br><br>
+		@endforeach
 	</div>
 </div>
 @endsection
