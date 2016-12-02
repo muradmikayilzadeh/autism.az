@@ -48,6 +48,7 @@ if(isset($_SESSION['userSistemde'])){
 	Route::get('/profile', 'UserController@myProfile');
 	Route::post('/profile/update', 'UserController@update');
 	Route::post('/comment-save', 'UserController@comment');
+	Route::get('/like-article/{id}', 'UserController@like');
 }
 
 // --------------------------ADMİN PANEL ROUTELERİ---------------------------------------

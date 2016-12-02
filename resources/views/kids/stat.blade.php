@@ -36,6 +36,10 @@ use App\User;
 							<img style="border:3px solid #008C99;" src="../{{$meqale->picture}}" class="img img-responsive">
 							<a><h3><b>{{$meqale->title}}</b></h3></a>
 							<p style="color:#878888">{{$meqale->text}}</p>
+							<a href="{{url('like-article',$meqale->id)}}" style="color:green">
+								<i class="fa fa-thumbs-o-up"></i>
+							</a>
+							<p style="color:#878888;display: inline-block;">{{count($rates)}} dəfə bəyəndildi.</p>
 						</div>
 					</div>
 				</div>
@@ -61,7 +65,12 @@ use App\User;
 										</div>
 										<div class="datas col-md-10">
 											<div class="row">
-												<p class="commenter"><b>{{$user->name.' '.$user->surname}}</b></p>
+												@if($_SESSION['userId']==$comment->user_id)
+													<p class="commenter" style="background: #008C99;color:white;border-radius: 10px"><b>{{$user->name.' '.$user->surname}}</b></p>
+													@else
+													
+													<p class="commenter"><b>{{$user->name.' '.$user->surname}}</b></p>
+												@endif
 												<p class="time">{{$comment->created_at}}<p>
 												<p class="text">
 													{{$comment->text}}

@@ -10,6 +10,7 @@ use App\User;
 use App\Hekimler;
 use App\Meqale;
 use App\Comment;
+use App\Rate;
 
 class UserController extends Controller
 {
@@ -118,6 +119,15 @@ class UserController extends Controller
         $new->text=$request->text;
         $new->article_id=$request->id;
         $new->user_id=$_SESSION['userId'];
+        $new->save();
+        return back();
+    }
+
+    public function like($id)
+    {
+        $new=new rate;
+        $new->user_id=$_SESSION['userId'];
+        $new->article_id=$id;
         $new->save();
         return back();
     }

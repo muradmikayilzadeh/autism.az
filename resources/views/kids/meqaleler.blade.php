@@ -17,10 +17,6 @@ use App\Hekimler;
 						<p>{{$meqale->created_at->diffForHumans()}}</p>
 						
 					</div>
-					<div class="comments date">
-						<span>12</span>
-						<p><i class="fa fa-comment"></i></p>
-					</div>
 					<div class="image date">
 						<i class="fa fa-image"></i>
 					</div>
