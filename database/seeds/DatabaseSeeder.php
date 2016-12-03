@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             'name'=> 'Murad',
             'surname'=> 'Mikayilzadə',
             'email'=> 'm.murad@code.edu.az',
-            'password'=> bcrypt('muradmikayilzade2002')
+            'password'=> 'muradmikayilzade2002'
             ]);
     }
 }
