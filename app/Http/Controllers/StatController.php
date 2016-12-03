@@ -9,7 +9,7 @@ use App\Http\Requests;
 use App\Meqale;
 use App\Hekimler;
 use App\Comment;
-use App\rate;
+use App\Rate;
 
 class StatController extends Controller
 {
