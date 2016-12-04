@@ -79,33 +79,33 @@
             <div class="container">
                 <div class="col-md-3 kidsLife">
                    <div class="row">
-                        <h4>About Kids Life</h4>
+                        <h4>autism.az Haqqında</h4>
                         <img src="{{url('images/red_sketch.png')}}" alt="">
-                        <p>Happy Kids Life comes with powerful theme options, which empowers you to quickly and easily build incredible store.</p>
+                        <p style="font-size: 13px">autism.az portalı tamamilə xeyriyyə məqsədi ilə yaradılmış portaldır. Bu portalda 1943-cü ildə araşdırmalar sayəsində fərq edilən sindrom olan "Autizm" sindromu barəsindədir. Portalın əsas məqasədi psixoloqlar və autizm sindromlu olan insanların əlaqəsini yartamaqdır. </p>
                         <ul>
                             <li>
-                                <i class="fa fa-check">English Grammer Class</i>
+                                <i class="fa fa-check">Psixoloq məsləhəti</i>
                             </li>
                             <li>
-                                <i class="fa fa-check">Music Class</i>
+                                <i class="fa fa-check">Psixoloq Məqalələri</i>
                             </li>
                             <li>
-                                <i class="fa fa-check">Swimming & Karate</i>
+                                <i class="fa fa-check">Psixoloq&Pasient əlaqəsi</i>
                             </li>
                             <li>
-                                <i class="fa fa-check">Lot of HTML Styles</i>
+                                <i class="fa fa-check">İnteraktiv oyunlar</i>
                             </li>
                             <li>
-                                <i class="fa fa-check">Unique News Page Design</i>
+                                <i class="fa fa-check">Maarifləndirici videolar</i>
                             </li>
                         </ul>
                    </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row kidsLife">
-                        <h4>Latest Post</h4>
+                        <h4>Son Hadisələr</h4>
                         <img src="{{url('images/green_sketch.png')}}" alt="">
-                        <ul>
+                        <ul style="font-size: 13px">
                             <li>
                                 <i class="fa fa-circle-o">English Grammer Class</i> <br>
                               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -129,9 +129,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="row kidsLife">
-                        <h4>Twitter Feeds</h4>
+                        <h4>Sosial Media</h4>
                         <img src="{{url('images/yellow_sketch.png')}}" alt="">
-                        <ul>
+                        <ul style="font-size: 13px">
                             <li>
                                 
                             <p></p>
@@ -144,9 +144,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="row kidsLife">
-                        <h4>Contact</h4>
+                        <h4>Əlaqə</h4>
                         <img src="{{url('images/steelblue_sketch.png')}}" alt="">
-                        <ul>
+                        <ul style="font-size: 13px">
                             <li>
                             <i class="fa fa-map-marker"></i>
                                 Azərbycan,Bakı şəh.

@@ -5,10 +5,10 @@
     <div  class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-1">
-                <h2><b>About Us<b></h2>
+                <h2><b>Haqqımızda<b></h2>
             </div>
             <div class="col-md-4  col-sm-6 col-xs-6">
-                <h6><a href="{{url('/about')}}">Home</a>  >>  About Us</h6> 
+                <h6><a href="{{url('/about')}}">Ana səhifə</a>  >>  Haqqımızda</h6> 
             </div>
         </div>
     </div>
@@ -22,10 +22,8 @@
         </div>
         
         <div class="col-md-5 col-xs-12" >
-            <h2><b>Our Leisure Time<b></h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Lorem Ipsum available, but the majority have suffered alteration in some form. Vivamus adipiscing lobortis sagittis. Nullam tempus mauris dolor, ac malesuada arcu. Praesent dolor quam, tincidunt in sollicitudin sit amet, volutpat sed velit. Nullam non neque ipsum. Nullam tempus mauris dolor, ac malesuada arcu. Praesent dolor quam, tincidunt in sollicitudin sit amet, volutpat sed velit. Nullam non neque ipsum.</p>
-            <button type="button" class="btn btn-md ">Read More <i class="glyphicon glyphicon-menu-right"></i>
-            </button>
+            <h2><b>Biz kimik?<b></h2>
+            <p>autism.az portalı tamamilə xeyriyyə məqsədi ilə yaradılmış portaldır. Bu portalda 1943-cü ildə araşdırmalar sayəsində fərq edilən sindrom olan "Autizm" sindromu barəsindədir. Portalın əsas məqasədi psixoloqlar və autizm sindromlu olan insanların əlaqəsini yartamaqdır. Portalda təmamilə psixoloqların məsləhəti ilə yaradılmış interaktiv oyunlar autizm sindromlu insanlara xidmət göstərir. Portal daxilində psixoloqlarla birbaşa əlaqə həmçinin onların məqalələrini oxumaq başqa bur xüsusiyyətimizdir. Paylaşılacaq videolar isə sizi bu sahədə daha da maarifləndirəcək! Gələcəkdə portalda olacaq yeniliklər və funksionallıqlar isə surpriz olaraq qalsın. Bizimlə olmağa davam edin! Hörmətlə, autism.az komandası!</p>
         </div>
         
     </div>
@@ -47,7 +45,7 @@
             <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus. Sed cursus ipsum vitae justo scelerisque, ac viverra tellus eleifend. Etiam interdum justo nunc, ac volutpat erat elementum id. Fusce dapibus mauris ac dictum porta. Sed pretium luctus elementum. In sollicitudin felis semper purus imperdiet lobortis. In odio tellus, rhoncus eget dolor in,</p>
         </div>
         <div class="col-md-6 col-xs-12" class="changeText">
-            <h3><b>Some Words from Parents</b></h3>
+            <h3><b>Valideynlərdən sözlər</b></h3>
             <div id="contentContainer">
                 <div id="wrapper">
                     <div id="itemOne"  id="items" class="content">
@@ -83,69 +81,34 @@
         
         </section> 
         <section id="staffHexa" class="col-md-12">
-            <div class="container text-center">
-                <h2>Our teachers</h2>
-                <img src="assets/images/green_title_bg.png">
-                <div class="container text-center">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="hexa  ">
-                            <div class="firstCol ">
-                                <div class="hexagon one ">
-                                    <img src="assets/images/obama.jpg">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                                <h4>Jack Daniels</h4>
-                                <h6>Senior Supervisor</h6>
-                                <p>Phasellus lorem augue, <br>
-                                vulputate vel orci id, ultricies aliquet risus.</p>
-                            </div>
+             <div class="container text-center">
+                        <h2>Komandamız</h2>
+                        <img src="assets/images/gt.png" class="line" style="margin-bottom: 30px">
+                        <div class="col-md-3 col-xs-12 col-sm-12">
+                            <img src="assets/images/team1.jpg" alt="">
+                            <h4>Murad Mikayilzadə</h4>
+                            <span>Web Developer</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos repellendus tenetur atque officiis, doloribus nam aliquam consectetur ipsum eum molestiae sed, quis, voluptatibus. Eum ad, officiis, ullam dignissimos maxime illum!</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-sm-12">
+                            <img src="assets/images/team2.jpg" alt="">
+                            <h4>Murad Mikayilzadə</h4>
+                            <span>Web Developer</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo praesentium possimus velit ad maiores doloremque facilis, nemo reiciendis quo pariatur eius sint, earum, modi provident quasi totam amet deleniti explicabo.</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-sm-12">
+                            <img src="assets/images/team3.jpg" alt="">
+                            <h4>Leyla Abbasova</h4>
+                            <span>Web Developer</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam iste numquam assumenda praesentium maxime esse, voluptates vel nemo eius ea aliquid enim optio ad nisi ut pariatur animi, deleniti sunt.</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-sm-12">
+                            <img src="assets/images/team4.jpg" alt="">
+                            <h4>Leyla Abbasova</h4>
+                            <span>Web Developer</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam iste numquam assumenda praesentium maxime esse, voluptates vel nemo eius ea aliquid enim optio ad nisi ut pariatur animi, deleniti sunt.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="hexa ">
-                            <div class="onetwoCol">
-                                <div class="hexagon through ">
-                                    <img src="assets/images/cenabPre.jpg">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                                <h4>Jack Daniels</h4>
-                                <h6>Senior Supervisor</h6>
-                                <p>Phasellus lorem augue, <br>
-                                vulputate vel orci id, ultricies aliquet risus.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="hexa">
-                            <div class="secondCol  ">
-                                <div class="hexagon two ">
-                                    <img src="assets/images/mellim2.jpg">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                                <h4>Jack Daniels</h4>
-                                <h6>Senior Supervisor</h6>
-                                <p>Phasellus lorem augue, <br>
-                                vulputate vel orci id, ultricies aliquet risus.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="hexa">
-                            <div class="thirdCol  ">
-                                <div class="hexagon three">
-                                    <img src="assets/images/mellim.jpg">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                                <h4>Jack Daniels</h4>
-                                <h6>Senior Supervisor</h6>
-                                <p>Phasellus lorem augue, <br>
-                                vulputate vel orci id, ultricies aliquet risus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
         <script type="text/javascript">
         $("#staffHexa .hexagon")

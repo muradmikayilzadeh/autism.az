@@ -168,7 +168,7 @@
         </section><!-- murad -->
         <section id="portfolio" class="col-md-12 col-xs-12 col-sm-12">
             <div class="container text-center">
-                <h2>Our Portfolio</h2>
+                <h2>İnteraktiv Oyunlar</h2>
                 <img src="assets/images/gt.png" alt="">
                 <!-- HECTAGONS+++++++++++++++++++++++++++================ -->
                 <div class="hexa text-center">
@@ -210,69 +210,36 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <button>Hit here to view all <i class="glyphicon glyphicon-chevron-right"></i></button>
+                    <a href="{{url('portfolio')}}">
+                        <button>Hamısını gör <i class="glyphicon glyphicon-chevron-right"></i></button>
+                    </a>
                 </div>
             </div>
             </section><!-- murad -->
             <section id="blog" class="col-md-12 col-xs-12 col-sm-12">
-                <div class="container text-center">
-                    <h2>Blogs</h2>
-                    <img src="assets/images/gt3.png" class="line">
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="data col-md-3 col-sm-3 col-xs-3 text-center">
-                                <img src="assets/images/service1.jpg" alt="">
-                                <div class="date">
-                                    <span>27</span>
-                                    <p>Aug <br> 2014</p>
-                                </div>
-                                <div class="comments date">
-                                    <span>12</span>
-                                    <p><i class="fa fa-comment"></i></p>
-                                </div>
-                                <div class="image date">
-                                    <i class="fa fa-image"></i>
-                                </div>
-                            </div>
-                            <div class="textAndPhoto col-md-9 text-left col-sm-9 col-xs-9">
-                                <div class="row">
-                                    <img src="assets/images/blog_img1.jpg" class="img img-responsive">
-                                    <a href="#"><h3><b>Activities Improves Mind</b></h3></a>
-                                    <p>Roin bibendum nibhsds. Nuncsdsd fermdada msit ametadasd consequat. Praes porr nulla sit amet dui lobortis, id venenatis nibh accums.</p>
-                                    <button>Read More <i class="fa fa-chevron-right"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="data col-md-3 col-sm-3 col-xs-3 text-center">
-                                <img src="assets/images/service1.jpg" alt="">
-                                <div class="date">
-                                    <span>27</span>
-                                    <p>Aug <br> 2014</p>
-                                </div>
-                                <div class="comments date">
-                                    <span>12</span>
-                                    <p><i class="fa fa-comment"></i></p>
-                                </div>
-                                <div class="image date">
-                                    <i class="fa fa-image"></i>
-                                </div>
-                            </div>
-                            <div class="textAndPhoto col-md-9 text-left col-sm-9 col-xs-9">
-                                <div class="row">
-                                    <img src="assets/images/blog_img2.jpg" class="img img-responsive">
-                                    <a href="#"><h3><b>Weekly Reader Zone</b></h3></a>
-                                    <p>Iid venenatis nibh accums. Doinbibe ndum nibhsds. Nuncsdsd fermdada msit ametadasd consequat. Praes porr nulla sit amet dui lobortis, id venenatis nibh accumsan...</p>
-                                    <button>Read More <i class="fa fa-chevron-right"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                </section><!-- murad -->
+                    <div class="container text-center"> 
+                        <h2>Autizm sindromu nədir?</h2>
+                        <img src="assets/images/gt3.png" class="line">
+                        <p style="color:white;font-size: 16px;margin-top:20px;margin-bottom: 20px">Autizm-erkən yaş dövründə başlayan, sosial münasibətlər və ünsiyyət sferasında problemlərin olması ilə özünü göstərən ümumi inkişaf problemidir. Autizmin əlamətləri əsasən iki yaşından etibarən özünü göstərməyə başlayır. Autizm-özünə qapanma, real həyatdan uzaqlaşma kimi təzahür edir. Autizm kifayət qədər geniş yayıimış haldır belə ki, təxminən min uşaqdan beş nəfərində müşahidə olunur. Hal-hazırda autizmin yaranmasinin dəqiq səbəbləri məlum deyil. Lakin autizmin nədən yaranmasına fikir bildirən mütəxəssislər belə hesab edirlər ki,autizmin yaranmasi həm irsi, həm də doğuşdan əvvəlki, doğuş zamanı və sonradan qazanılmış bir sıra inkişafa təsiredici faktorlarla, hamiləlik zamanı baş verən narahatlıqlar,eləce də uşaqlıqda edilən peyvəndlərlə əlaqədar ola bilər. Müasir tədqiqatlara əsasən autizmi əsəb sisteminin patologiyası ilə əlaqələndirirlər.Bu isə bir sira səbəblərlə əlaqədar ola bilər:
+
+                        Maddələr mübadiləsinin anadangəlmə pozulması və ya orqanik zədələnməsi, hamiləlik dövründə və doğuş zamanı yarana bilər, epilepsiya sindromu ilə və yaxud bir sıra uşaq xəstəliklərinin (məs; qızılça,məxmərək və s.) kəskinləşməsi ilə meydana gələ bilər.
+                        Autizmin spektr pozuntuları:
+
+Autizm
+Asperger sindromu
+Rett sindromu
+Uşaqlıq dezinteqrativ pozuntusu
+Atipik autizm
+ 
+
+Baxmayaraq ki, autizmin təzahür spektri çox genişdir, əsas simptomları ümumi xarakter daşıyır:
+
+Sosial münasibətlərdə pozğunluq
+Nitq və ünsiyyətdə pozğunluq
+Тəxəyyüldə pozğunluq
+                        </p>
+                    </div>    
+            </section><!-- murad -->
                 <section id="staffs" class="col-md-12 col-xs-12 col-sm-12">
                     <div class="container text-center">
                         <h2>Komandamız</h2>
@@ -303,66 +270,8 @@
                         </div>
                     </div>
                     </section><!-- murad -->
-                    <section id="products" class="col-md-12 col-xs-12 col-sm-12">
-                        <div class="container text-center">
-                            <h2>Recent Products</h2>
-                            <img src="assets/images/gt2.png" class="line">
-                            <!-- PRODUCTS+++++++++++++++=====================  -->
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="margin">
-                                    <div class="row">
-                                        <img src="assets/images/p1.jpg" class="product">
-                                        <div class="hover"></div>
-                                        <button>Add to cart</button>
-                                        <div class="desc col-md-12 col-xs-12 col-sm-12">
-                                            <h5 class="name pull-left">Ellents Style Grade</h5>
-                                            <h5 class="price pull-right">$20.00</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="margin">
-                                    <div class="row">
-                                        <img src="assets/images/p2.jpg" class="product">
-                                        <div class="hover"></div>
-                                        <button>Add to cart</button>
-                                        <div class="desc col-md-12 col-xs-12 col-sm-12">
-                                            <h5 class="name pull-left">Ellents Style Grade</h5>
-                                            <h5 class="price pull-right">$20.00</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="margin">
-                                    <div class="row">
-                                        <img src="assets/images/p3.jpg" class="product">
-                                        <div class="hover"></div>
-                                        <button>Add to cart</button>
-                                        <div class="desc col-md-12 col-xs-12 col-sm-12">
-                                            <h5 class="name pull-left">Ellents Style Grade</h5>
-                                            <h5 class="price pull-right">$20.00</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="margin">
-                                    <div class="row">
-                                        <img src="assets/images/p4.jpg" class="product">
-                                        <div class="hover"></div>
-                                        <button>Add to cart</button>
-                                        <div class="desc col-md-12 col-xs-12 col-sm-12">
-                                            <h5 class="name pull-left">Ellents Style Grade</h5>
-                                            <h5 class="price pull-right">$20.00</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </section><!-- murad -->
+                    
 
-                        <img src="assets/images/top.png" title="Go To Top" class="top">
+                        <img src="assets/images/top.png" style="cursor:pointer" title="Go To Top" class="top">
 
                         @stop

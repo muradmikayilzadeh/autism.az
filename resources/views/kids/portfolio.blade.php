@@ -4,7 +4,7 @@
         <div  class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-1" >
-                    <h2><b>Portfolio Column</b></h2>
+                    <h2><b>İnteraktiv Oyunlar</b></h2>
                 </div>
                 <div class="col-md-4  col-sm-6 col-xs-6" >
                     <h6><a href="#">Home </a>  &raquo  About Us</h6>
@@ -12,7 +12,7 @@
             </div>
         </div>
     </section>
-    <section id="HexagonToggle">
+    {{-- <section id="HexagonToggle">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-3  col-sm-12 col-xs-4 col-xs-offset-4" >
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section id="portfolioHexa" class="col-md-12 col-sm-12 col-xs-12 ">
         <div class="container  margin">

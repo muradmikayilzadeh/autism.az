@@ -25,7 +25,7 @@
 
                <span class="input-group-addon"><i class="icon_profile"></i></span>
 
-              <input type="text" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-poçt" autofocus>
+              <input required type="text" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-poçt" autofocus>
 
               @if ($errors->has('email'))
               <span class="help-block">
@@ -37,7 +37,7 @@
               </div>
               <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input id="password" type="password" class="form-control" name="password" placeholder="Şifrə">
+                <input required id="password" type="password" class="form-control" name="password" placeholder="Şifrə">
               </div>
                <a href="{{ url('hekimler/login') }}"><button  class="btn btn-success btn-lg btn-block" type="submit">GİRİŞ</button></a>
               </ul>
