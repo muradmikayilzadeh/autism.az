@@ -59,14 +59,37 @@
         </div>
     </div>
     </section><!-- murad -->
+    <section id="blog" class="col-md-12 col-xs-12 col-sm-12">
+                    <div class="container text-center"> 
+                        <h2>Autizm sindromu nədir?</h2>
+                        <img src="assets/images/gt3.png" class="line">
+                        <p style="color:white;font-size: 16px;margin-top:8px;margin-bottom: 60px">Autizm-erkən yaş dövründə başlayan, sosial münasibətlər və ünsiyyət sferasında problemlərin olması ilə özünü göstərən ümumi inkişaf problemidir. Autizmin əlamətləri əsasən iki yaşından etibarən özünü göstərməyə başlayır. Autizm-özünə qapanma, real həyatdan uzaqlaşma kimi təzahür edir. Autizm kifayət qədər geniş yayıimış haldır belə ki, təxminən min uşaqdan beş nəfərində müşahidə olunur. Hal-hazırda autizmin yaranmasinin dəqiq səbəbləri məlum deyil. Lakin autizmin nədən yaranmasına fikir bildirən mütəxəssislər belə hesab edirlər ki,autizmin yaranmasi həm irsi, həm də doğuşdan əvvəlki, doğuş zamanı və sonradan qazanılmış bir sıra inkişafa təsiredici faktorlarla, hamiləlik zamanı baş verən narahatlıqlar,eləce də uşaqlıqda edilən peyvəndlərlə əlaqədar ola bilər. Müasir tədqiqatlara əsasən autizmi əsəb sisteminin patologiyası ilə əlaqələndirirlər.Bu isə bir sira səbəblərlə əlaqədar ola bilər:
+
+                        Maddələr mübadiləsinin anadangəlmə pozulması və ya orqanik zədələnməsi, hamiləlik dövründə və doğuş zamanı yarana bilər, epilepsiya sindromu ilə və yaxud bir sıra uşaq xəstəliklərinin (məs; qızılça,məxmərək və s.) kəskinləşməsi ilə meydana gələ bilər.
+                        Autizmin spektr pozuntuları:
+
+Autizm
+Asperger sindromu
+Rett sindromu
+Uşaqlıq dezinteqrativ pozuntusu
+Atipik autizm
+ 
+
+Baxmayaraq ki, autizmin təzahür spektri çox genişdir, əsas simptomları ümumi xarakter daşıyır:
+
+Sosial münasibətlərdə pozğunluq
+Nitq və ünsiyyətdə pozğunluq
+Тəxəyyüldə pozğunluq
+                        </p>
+                    </div>    
+            </section><!-- murad -->
     <section id="primary" class="col-md-12 col-sm-12 col-xs-12">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 text-center">
                     <div class="img">
-                        <img src="assets/images/service1.jpg" alt="">
-                        <div class="circle"></div>
-                        <i class="fa fa-link"></i>
+                    <img src="assets/images/service1.jpg" alt="">
+                        
                     </div>
                     <h4>İnteraktiv oyunlar</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eos nobis velit eligendi laborum quasi reprehenderit debitis, natus nisi quia, voluptatibus tempore dicta laudantium esse voluptas eum ratione porro cum!</p>
@@ -74,8 +97,7 @@
                 <div class="col-md-3 text-center">
                     <div class="img">
                         <img src="assets/images/service2.jpg" alt="">
-                        <div class="circle"></div>
-                        <i class="fa fa-link"></i>
+                        
                     </div>
                     <h4>Öyrədici animasiyalar</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil harum, laborum dolore quisquam qui esse alias atque ex animi repudiandae aspernatur ducimus veritatis nesciunt error in earum non minima voluptatem.</p>
@@ -83,8 +105,7 @@
                 <div class="col-md-3 text-center">
                     <div class="img">
                         <img src="assets/images/service3.jpg" alt="">
-                        <div class="circle"></div>
-                        <i class="fa fa-link"></i>
+                        
                     </div>
                     <h4>Həkim məsləhəti</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corrupti nisi quam? Ab culpa voluptatem dolorem laboriosam aperiam fugiat cum velit, quam nihil necessitatibus quisquam temporibus ut, quas aliquam fugit!</p>
@@ -92,8 +113,7 @@
                 <div class="col-md-3 text-center">
                     <div class="img">
                         <img src="assets/images/service4.jpg" alt="">
-                        <div class="circle"></div>
-                        <i class="fa fa-link"></i>
+                        
                     </div>
                     <h4>Həkimlərlə əlaqə</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora vitae ea fuga officiis dignissimos quia, est expedita eaque optio sequi dolorem, a enim cupiditate quas assumenda quod ratione unde itaque!</p>
@@ -215,63 +235,8 @@
                     </a>
                 </div>
             </div>
-            </section><!-- murad -->
-            <section id="blog" class="col-md-12 col-xs-12 col-sm-12">
-                    <div class="container text-center"> 
-                        <h2>Autizm sindromu nədir?</h2>
-                        <img src="assets/images/gt3.png" class="line">
-                        <p style="color:white;font-size: 16px;margin-top:20px;margin-bottom: 20px">Autizm-erkən yaş dövründə başlayan, sosial münasibətlər və ünsiyyət sferasında problemlərin olması ilə özünü göstərən ümumi inkişaf problemidir. Autizmin əlamətləri əsasən iki yaşından etibarən özünü göstərməyə başlayır. Autizm-özünə qapanma, real həyatdan uzaqlaşma kimi təzahür edir. Autizm kifayət qədər geniş yayıimış haldır belə ki, təxminən min uşaqdan beş nəfərində müşahidə olunur. Hal-hazırda autizmin yaranmasinin dəqiq səbəbləri məlum deyil. Lakin autizmin nədən yaranmasına fikir bildirən mütəxəssislər belə hesab edirlər ki,autizmin yaranmasi həm irsi, həm də doğuşdan əvvəlki, doğuş zamanı və sonradan qazanılmış bir sıra inkişafa təsiredici faktorlarla, hamiləlik zamanı baş verən narahatlıqlar,eləce də uşaqlıqda edilən peyvəndlərlə əlaqədar ola bilər. Müasir tədqiqatlara əsasən autizmi əsəb sisteminin patologiyası ilə əlaqələndirirlər.Bu isə bir sira səbəblərlə əlaqədar ola bilər:
+            </section><!-- murad -->                  
 
-                        Maddələr mübadiləsinin anadangəlmə pozulması və ya orqanik zədələnməsi, hamiləlik dövründə və doğuş zamanı yarana bilər, epilepsiya sindromu ilə və yaxud bir sıra uşaq xəstəliklərinin (məs; qızılça,məxmərək və s.) kəskinləşməsi ilə meydana gələ bilər.
-                        Autizmin spektr pozuntuları:
+            <img src="assets/images/top.png" style="cursor:pointer" title="Go To Top" class="top">
 
-Autizm
-Asperger sindromu
-Rett sindromu
-Uşaqlıq dezinteqrativ pozuntusu
-Atipik autizm
- 
-
-Baxmayaraq ki, autizmin təzahür spektri çox genişdir, əsas simptomları ümumi xarakter daşıyır:
-
-Sosial münasibətlərdə pozğunluq
-Nitq və ünsiyyətdə pozğunluq
-Тəxəyyüldə pozğunluq
-                        </p>
-                    </div>    
-            </section><!-- murad -->
-                <section id="staffs" class="col-md-12 col-xs-12 col-sm-12">
-                    <div class="container text-center">
-                        <h2>Komandamız</h2>
-                        <img src="assets/images/gt.png" class="line">
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <img src="assets/images/team1.jpg" alt="">
-                            <h4>Murad Mikayilzadə</h4>
-                            <span>Web Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos repellendus tenetur atque officiis, doloribus nam aliquam consectetur ipsum eum molestiae sed, quis, voluptatibus. Eum ad, officiis, ullam dignissimos maxime illum!</p>
-                        </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <img src="assets/images/team2.jpg" alt="">
-                            <h4>Murad Mikayilzadə</h4>
-                            <span>Web Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo praesentium possimus velit ad maiores doloremque facilis, nemo reiciendis quo pariatur eius sint, earum, modi provident quasi totam amet deleniti explicabo.</p>
-                        </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <img src="assets/images/team3.jpg" alt="">
-                            <h4>Leyla Abbasova</h4>
-                            <span>Web Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam iste numquam assumenda praesentium maxime esse, voluptates vel nemo eius ea aliquid enim optio ad nisi ut pariatur animi, deleniti sunt.</p>
-                        </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <img src="assets/images/team4.jpg" alt="">
-                            <h4>Leyla Abbasova</h4>
-                            <span>Web Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam iste numquam assumenda praesentium maxime esse, voluptates vel nemo eius ea aliquid enim optio ad nisi ut pariatur animi, deleniti sunt.</p>
-                        </div>
-                    </div>
-                    </section><!-- murad -->
-                    
-
-                        <img src="assets/images/top.png" style="cursor:pointer" title="Go To Top" class="top">
-
-                        @stop
+            @stop

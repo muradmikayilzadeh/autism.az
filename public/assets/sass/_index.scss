@@ -247,7 +247,8 @@ $blue:#008C99;
 	background:$gray;
 	overflow:hidden;
 	.col-md-3{
-		margin-top: 80px;
+		margin-top: 60px;
+		margin-bottom:30px;
 		img{
 			border-radius:100%;
 			background:white;
@@ -485,7 +486,7 @@ $blue:#008C99;
 		height: 50px;
 		background:orange;
 		margin-top: 40px;
-		margin-bottom: 60px;
+		margin-bottom:40px;
 		color:white;
 		border:none;
 		border-radius:2px;
@@ -528,6 +529,7 @@ $blue:#008C99;
 			img{
 				border-radius:100%;
 				height: 55px;
+				width: 55px;
 				background-color:white;
 				border:3px solid white;
 				padding:3px;
@@ -666,117 +668,8 @@ $blue:#008C99;
 	}
 
 }
-// --------------------------STAFFS=============================
-#staffs{
-	min-height:565px;
-	background:$gray;
-	h2{
-		font-family: 'Bubblegum Sans', cursive;
-		font-weight: bold;
-		margin-top: 60px;
-	}
-	.line{
-		display: block;
-		margin:0 auto;
-	}
 
-	.col-md-3{
-		margin-top: 50px;
-		h4{
-			font-family: 'Bubblegum Sans', cursive;
-			font-weight: bold;
-		}
-		span{
-			font-style: italic;
-			margin-top: 25px;
-		}
-		p{
-			margin-top: 30px;
-		}
-	}
-}
-// --------------------------PRODUCTS=============================
-#products{
-	min-height:680px;
-	background:url("../images/bg.png") #D2D2D2;
-	background-attachment:fixed;
-	h2{
-		font-family: 'Bubblegum Sans', cursive;
-		font-weight: bold;
-		margin-top: 60px;
-		color:#5C5C5C;
-	}
-	.line{
-		display: block;
-		margin:0 auto;
-	}
-	.col-md-3{
-		margin-top: 35px;
-		.margin{
-			margin-left: 0px;
-			.row{
-				margin-left:5px;
-				margin-right: 5px;
-			}
 
-			.sale{
-				height: 50px;
-				position:absolute;
-				left: 25px;
-				top:10px;
-			}
-			.product{
-				width: 100%;
-				float: left;
-				height: 380px;
-			}
-			.hover{
-				height: 100%;
-				background:$blue;
-				position:absolute;
-				opacity: 0;
-				transition: all .5s ease;
-			}
-			button{
-				opacity: 0;
-				width: 110px;
-				height: 50px;
-				border:1px solid white;
-				background:transparent;
-				border-radius:2px;
-				color:white;
-				position:absolute;
-				left: 32%;
-				margin:0 auto;
-				margin-top: 165px;
-				transition: all .5s ease;
-				&:hover{
-					border:1px solid $blue;
-					background:white;
-					color:$blue;
-				}
-			}
-			.desc{
-				height: 65px;
-				background:white;
-				border-top:1px solid $gray;
-				display: block;
-
-				h5{
-					margin-top: 25px;
-				}
-				.name{
-					font-weight: 100;
-					color:#8F9393;
-				}
-				.price{
-					color:#278C99;
-					font-weight: bold;
-				}
-			}
-		}
-	}
-}
 
 @media screen and (max-width:1150px){
 	#slider{
@@ -824,12 +717,6 @@ $blue:#008C99;
 			margin-left:0;
 			display: inline-block;
 			float: none;
-		}
-	}
-
-	#staffs{
-		img{
-			margin-left:0px;
 		}
 	}
 	#slider2{

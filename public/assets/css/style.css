@@ -4,7 +4,8 @@
     margin-top: 30px; }
     #header .ep li {
       text-align: right;
-      list-style-type: none; }
+      list-style-type: none;
+      color: #b3afaf; }
     #header .ep .email span {
       color: #378C99; }
   #header .menu {
@@ -12,61 +13,74 @@
     #header .menu li {
       display: inline-block;
       padding: 10px;
+      font-family: 'Bubblegum Sans', cursive;
+      margin-bottom: 20px;
+      margin-top: 15px;
       font-size: 16px;
-      line-height: 40px;
+      line-height: 10px;
       text-align: center; }
       #header .menu li a {
-        color: black; }
+        color: black;
+        transition: all .3s ease;
+        text-decoration: inherit; }
     #header .menu .red {
-      border-top: 4px solid #F27B81; }
+      border-bottom: 4px solid #F27B81; }
       #header .menu .red a:hover {
         color: #F27B81;
         text-decoration: none;
         transition: all .3s ease; }
     #header .menu .orange {
-      border-top: 4px solid #F7C44E; }
+      border-bottom: 4px solid #F7C44E; }
       #header .menu .orange a:hover {
         color: #F7C44E;
         text-decoration: none;
         transition: all .3s ease; }
     #header .menu .green {
-      border-top: 4px solid #AEC158; }
+      border-bottom: 4px solid #AEC158; }
       #header .menu .green a:hover {
         color: #AEC158;
         text-decoration: none;
         transition: all .3s ease; }
     #header .menu .yellow {
-      border-top: 4px solid #FCE480; }
+      border-bottom: 4px solid #FCE480; }
       #header .menu .yellow a:hover {
         color: #FCE480;
         text-decoration: none;
         transition: all .3s ease; }
     #header .menu .skyblue {
-      border-top: 4px solid #4CBCD4; }
+      border-bottom: 4px solid #4CBCD4; }
       #header .menu .skyblue a:hover {
         color: #4CBCD4;
         text-decoration: none;
         transition: all .3s ease; }
     #header .menu .darkblue {
-      border-top: 4px solid #4C7297; }
+      border-bottom: 4px solid #4C7297; }
       #header .menu .darkblue a:hover {
         color: #4C7297;
         text-decoration: none;
         transition: all .3s ease; }
     #header .menu .purple {
-      border-top: 4px solid #B0B6FB; }
-      #header .menu .purple a:hover {
-        color: #B0B6FB;
-        text-decoration: none;
-        transition: all .3s ease; }
+      border: 4px solid #B0B6FB; }
+      #header .menu .purple a {
+        color: #B0B6FB; }
+      #header .menu .purple:hover {
+        background: #B0B6FB;
+        color: white; }
+      #header .menu .purple:hover a {
+        color: white; }
     #header .menu .purplesecond {
-      border-top: 4px solid #DD72B3; }
-      #header .menu .purplesecond a:hover {
-        color: #DD72B3;
+      border: 4px solid #DD72B3;
+      margin-right: 15px; }
+      #header .menu .purplesecond a {
+        color: #DD72B3; }
+      #header .menu .purplesecond:hover {
+        background: #DD72B3;
         text-decoration: none;
-        transition: all .3s ease; }
+        color: white; }
+      #header .menu .purplesecond:hover a {
+        color: white; }
     #header .menu .purplethird {
-      border-top: 4px solid #FCC6E6; }
+      border-bottom: 4px solid #FCC6E6; }
       #header .menu .purplethird a:hover {
         color: #FCC6E6;
         text-decoration: none;
@@ -365,7 +379,8 @@
   background: #F0F3F3;
   overflow: hidden; }
   #primary .col-md-3 {
-    margin-top: 80px; }
+    margin-top: 60px;
+    margin-bottom: 30px; }
     #primary .col-md-3 img {
       border-radius: 100%;
       background: white;
@@ -556,7 +571,7 @@
     height: 50px;
     background: orange;
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     color: white;
     border: none;
     border-radius: 2px;
@@ -590,6 +605,7 @@
     #blog .col-md-6 .col-md-3 img, #blog .col-md-12 .col-md-3 img {
       border-radius: 100%;
       height: 55px;
+      width: 55px;
       background-color: white;
       border: 3px solid white;
       padding: 3px;
@@ -696,92 +712,6 @@
         background: #CF571B;
         transition: all .5s ease; }
 
-#staffs {
-  min-height: 565px;
-  background: #F0F3F3; }
-  #staffs h2 {
-    font-family: 'Bubblegum Sans', cursive;
-    font-weight: bold;
-    margin-top: 60px; }
-  #staffs .line {
-    display: block;
-    margin: 0 auto; }
-  #staffs .col-md-3 {
-    margin-top: 50px; }
-    #staffs .col-md-3 h4 {
-      font-family: 'Bubblegum Sans', cursive;
-      font-weight: bold; }
-    #staffs .col-md-3 span {
-      font-style: italic;
-      margin-top: 25px; }
-    #staffs .col-md-3 p {
-      margin-top: 30px; }
-
-#products {
-  min-height: 680px;
-  background: url("../images/bg.png") #D2D2D2;
-  background-attachment: fixed; }
-  #products h2 {
-    font-family: 'Bubblegum Sans', cursive;
-    font-weight: bold;
-    margin-top: 60px;
-    color: #5C5C5C; }
-  #products .line {
-    display: block;
-    margin: 0 auto; }
-  #products .col-md-3 {
-    margin-top: 35px; }
-    #products .col-md-3 .margin {
-      margin-left: 0px; }
-      #products .col-md-3 .margin .row {
-        margin-left: 5px;
-        margin-right: 5px; }
-      #products .col-md-3 .margin .sale {
-        height: 50px;
-        position: absolute;
-        left: 25px;
-        top: 10px; }
-      #products .col-md-3 .margin .product {
-        width: 100%;
-        float: left;
-        height: 380px; }
-      #products .col-md-3 .margin .hover {
-        height: 100%;
-        background: #008C99;
-        position: absolute;
-        opacity: 0;
-        transition: all .5s ease; }
-      #products .col-md-3 .margin button {
-        opacity: 0;
-        width: 110px;
-        height: 50px;
-        border: 1px solid white;
-        background: transparent;
-        border-radius: 2px;
-        color: white;
-        position: absolute;
-        left: 32%;
-        margin: 0 auto;
-        margin-top: 165px;
-        transition: all .5s ease; }
-        #products .col-md-3 .margin button:hover {
-          border: 1px solid #008C99;
-          background: white;
-          color: #008C99; }
-      #products .col-md-3 .margin .desc {
-        height: 65px;
-        background: white;
-        border-top: 1px solid #F0F3F3;
-        display: block; }
-        #products .col-md-3 .margin .desc h5 {
-          margin-top: 25px; }
-        #products .col-md-3 .margin .desc .name {
-          font-weight: 100;
-          color: #8F9393; }
-        #products .col-md-3 .margin .desc .price {
-          color: #278C99;
-          font-weight: bold; }
-
 @media screen and (max-width: 1150px) {
   #slider .child {
     height: 200px; }
@@ -816,9 +746,6 @@
       margin-left: 0;
       display: inline-block;
       float: none; }
-
-  #staffs img {
-    margin-left: 0px; }
 
   #slider2 h2 {
     font-size: 24px; }

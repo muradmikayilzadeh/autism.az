@@ -39,7 +39,7 @@ use App\User;
 							<a href="{{url('like-article',$meqale->id)}}" style="color:green">
 								<i class="fa fa-thumbs-o-up"></i>
 							</a>
-							<p style="color:#878888;display: inline-block;">{{count($rates)}} dəfə bəyəndildi.</p>
+							<p style="color:#878888;display: inline-block;">{{count($rates)}} dəfə bəyənildi.</p>
 						</div>
 					</div>
 				</div>

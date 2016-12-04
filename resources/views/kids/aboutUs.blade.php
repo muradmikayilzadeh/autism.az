@@ -32,20 +32,10 @@
 </section>
 <section id="ourFounder">
     <div class="container">
-        <div class="col-md-6 col-xs-12 col-sm-12">
-            <h2>Meet Our Founder</h2>
-            <div class="founderImg  img-responsive">
-                <img src="assets/images/founder.jpg">
-            </div>
-            <div class="boxx">
-                <h5><b>James Bond<b></h5>
-                <h6>Music Trainer, Specialist in <span><a href="#" style="  text-decoration:none;">Classical Music</a></span></h6>
-                <span><a href="#" style="   text-decoration:none;">25 students</a></span>
-            </div>
-            <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus. Sed cursus ipsum vitae justo scelerisque, ac viverra tellus eleifend. Etiam interdum justo nunc, ac volutpat erat elementum id. Fusce dapibus mauris ac dictum porta. Sed pretium luctus elementum. In sollicitudin felis semper purus imperdiet lobortis. In odio tellus, rhoncus eget dolor in,</p>
-        </div>
-        <div class="col-md-6 col-xs-12" class="changeText">
-            <h3><b>Valideynlərdən sözlər</b></h3>
+        
+        <div class="row">
+            <div class="col-md-6 col-xs-12" class="changeText">
+            <h3><b>Valideyn Düşüncələri</b></h3>
             <div id="contentContainer">
                 <div id="wrapper">
                     <div id="itemOne"  id="items" class="content">
@@ -76,6 +66,7 @@
                     <li class="itemLinks" data-pos="-1650px"></li>
                 </ul>
             </div>
+        </div>
             
         </div>
         
@@ -122,16 +113,5 @@
         $(this).find('i').css('opacity', '0');
         });
         </script>
-        <marquee  id="sponsors" behavior="scroll" direction="right" style="float:left;">
-    </marquee></div>
-    <script type="text/javascript">
-    var sponsor = ["<img src='assets/images/client-logo1.png'</img>","<img src='assets/images/client-logo2.png'</img>", "<img src='assets/images/client-logo3.png'</img>",
-    "<img src='assets/images/client-logo4.png'</img>","<img src='assets/images/client-logo1.png'</img>", "<img src='assets/images/client-logo2.png'</img>"];
-    var img = "";
-    var i;
-    for (i = 0; i < sponsor.length; i++) {
-    img += sponsor[i] +"  ";
-    }
-    document.getElementById("sponsors").innerHTML = img;
-    </script>
+        
     @stop

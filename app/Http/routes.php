@@ -36,7 +36,7 @@ Route::get('/register',function()
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/stat/{id}', 'StatController@find');
+
 
 
 // --------------------------LOGIN AND REGISTER---------------------------------------
@@ -49,6 +49,13 @@ if(isset($_SESSION['userSistemde'])){
 	Route::post('/profile/update', 'UserController@update');
 	Route::post('/comment-save', 'UserController@comment');
 	Route::get('/like-article/{id}', 'UserController@like');
+	Route::get('/stat/{id}', 'StatController@find');
+}else{
+	Route::get('/profile', function(){return view('auth.login');});
+	Route::post('/profile/update', function(){return view('auth.login');});
+	Route::post('/comment-save', function(){return view('auth.login');});
+	Route::get('/like-article/{id}', function(){return view('auth.login');});
+	Route::get('/stat/{id}', function(){return view('auth.login');});
 }
 
 // --------------------------ADMİN PANEL ROUTELERİ---------------------------------------

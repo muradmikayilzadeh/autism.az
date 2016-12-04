@@ -39,6 +39,11 @@ class UserController extends Controller
 
     public function login(Request $request)
     {
+            $this->validate($request,[
+                'email'=>'required',
+                'password'=>'required',
+
+                ]);
             $email=$request->email;
             $password=$request->password;
             if (isset($_SESSION)) {

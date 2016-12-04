@@ -23,21 +23,11 @@
         <script src="{{ url('assets/js/slider.js')}}"></script>
     </head>
     <style>
-#header img {
-    height:100px;
-     width: 230px;
-      position: relative;
-       left: 500px;
-        top: 40px;
-}
-
-@media screen and (min-width: 480px) {
-#header img {
-  
-
-}
-}
-</style>
+            #header img{
+                height: 70px;
+                margin-top: 20px;
+            }
+    </style>
     <body>
         <section id='header' >
             <div class="container">
@@ -45,18 +35,18 @@
                 
                 <ul class="pull-right ep">
                     <li class="email">
-                        <span>office@autism.az</span> <i class="fa fa-envelope"></i>
+                        office@autism.az <i class="fa fa-envelope"></i>
                     </li>
                     <li>
-                        <i>+994 55 448 23 20</i> <i class="fa fa-phone"></i>
+                        +994 55 448 23 20 <i class="fa fa-phone"></i>
                     </li>
                 </ul>
 
                 <ul class="menu col-md-12 col-sm-6 col-xs-12">
-                    <li class="red"><a href="{{url('/')}}">Ana Səhifə</a></li>
-                    <li class="orange"><a href="{{url('/about')}}">Haqqımızda</a></li>
-                    <li class="green"><a href="{{url('/portfolio')}}">Oyunlar</a></li>
-                    <li class="darkblue"><a href="{{url('/meqale')}}">Məqalələr</a></li>
+                    <li class="red pull-left"><a href="{{url('/')}}">Ana Səhifə</a></li>
+                    <li class="orange pull-left"><a href="{{url('/about')}}">Haqqımızda</a></li>
+                    <li class="green pull-left"><a href="{{url('/portfolio')}}">Oyunlar</a></li>
+                    <li class="darkblue pull-left"><a href="{{url('/meqale')}}">Məqalələr</a></li>
 
 
                     @if(!isset($_SESSION['userSistemde']))

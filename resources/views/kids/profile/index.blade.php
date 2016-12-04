@@ -57,7 +57,7 @@
 				<option value="0">Kişi</option>
 				<option value="1">Qadın</option>
 			</select><br>
-			<input type="file" name="photo" class="form-control"><br>
+			<input type="file" name="photo" class="form-control" style=""><br>
 			
 			<input type="submit" value="Yenilə" class="btn btn-success">
 		</form>
