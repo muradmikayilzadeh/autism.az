@@ -12,7 +12,7 @@
             </div>
         </div>
     </section>
-    {{-- <section id="HexagonToggle">
+    <section id="HexagonToggle">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-3  col-sm-12 col-xs-4 col-xs-offset-4" >
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <section id="portfolioHexa" class="col-md-12 col-sm-12 col-xs-12 ">
         <div class="container  margin">
