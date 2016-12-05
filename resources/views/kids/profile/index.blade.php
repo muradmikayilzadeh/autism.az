@@ -31,6 +31,14 @@
 	form{
 		margin-bottom: 20px;
 	}
+	.error{
+		font-family: 'Bubblegum Sans',cursive;
+		font-size: 16px;
+		color:white;
+		text-align: left;
+		margin:0;
+		padding:0;
+	}
 </style>
 <div class="back container-fluid">
 	<div class="container">
@@ -48,11 +56,27 @@
 
 		<form action="{{url('profile/update')}}" method="post" class="col-md-6 col-md-offset-3" enctype="multipart/form-data">
 			<input type="hidden" name="_token" value="{{ csrf_token() }}">
-			<input type="text" name="name" class="form-control" value="{{$user->name}}"><br>
-			<input type="text" name="surname" class="form-control" value="{{$user->surname}}"><br>
+			<input type="text" name="name" class="form-control" value="{{$user->name}}">
+			@if($errors->has('name'))
+	         <p class="error"><b>Adınızı yazın.</b></p>
+	        @endif
+			<br>
+			<input type="text" name="surname" class="form-control" value="{{$user->surname}}">
+			@if($errors->has('surname'))
+	         <p class="error"><b>Soyadınızı yazın.</b></p>
+	        @endif
+			<br>
 
-			<input type="email" name="email" class="form-control" value="{{$user->email}}"><br>
-			<input type="password" name="password" class="form-control" value="{{$user->password}}"><br>
+			<input type="email" name="email" class="form-control" value="{{$user->email}}">
+			@if($errors->has('email'))
+	         <p class="error"><b>E-poçt ünvanınızı yazın.</b></p>
+	        @endif
+			<br>
+			<input type="password" name="password" class="form-control" value="{{$user->password}}">
+			@if($errors->has('password'))
+	         <p class="error"><b>Şifrənizi yazın.</b></p>
+	        @endif
+			<br>
 			<select name="gender" class="form-control">
 				<option value="0">Kişi</option>
 				<option value="1">Qadın</option>

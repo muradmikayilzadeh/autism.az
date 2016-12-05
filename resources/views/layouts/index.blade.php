@@ -147,14 +147,7 @@
                             <li>
                                 <i class="fa fa-envelope"></i>office@autism.az
                             </li>
-                            <p></p>
-                          <div class="form-group">
-                              <input class="form-control" id="focusedInput" placeholder="Email adresiniz"  type="text">
-                              <input type="submit" value="bizi izlə" style="position: relative; top: -35px" class="btn btn primary pull-right" name="">
-                            </div>
-               
-
-                           
+                            <p></p>         
                         </ul>
 
                       
