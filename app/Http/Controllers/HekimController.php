@@ -17,6 +17,11 @@ class HekimController extends Controller
         }
         public function login(Request $request)
         {
+                $this->validate($request,[
+                'email'=>'required',
+                'password'=>'required',
+
+                ]);
                 $email=$request->email;
                 $password=$request->password;
                 if (isset($_SESSION)) {
@@ -60,6 +65,12 @@ class HekimController extends Controller
 
         public function saveSettings(Request $request)
         {
+            $this->validate($request,[
+                'name'=>'required',
+                'surname'=>'required',
+                'email'=>'required',
+                'password'=>'required',
+                ]);
             $hekim=Hekimler::find($_SESSION['hekimId']);
             $hekim->name=$request->name;
             $hekim->surname=$request->surname;
@@ -81,6 +92,11 @@ class HekimController extends Controller
 
         public function newMeqale(Request $request)
         {
+             $this->validate($request,[
+                'title'=>'required',
+                'text'=>'required',
+                'photo'=>'required',
+            ]);
             $new=new Meqale;
             $new->title=$request->title;
             $new->text=$request->text;

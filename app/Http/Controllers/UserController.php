@@ -16,6 +16,13 @@ class UserController extends Controller
 {
     public function register(Request $request)
     {
+        $this->validate($request,[
+                'name'=>'required',
+                'surname'=>'required',
+                'email'=>'required',
+                'password'=>'required',
+
+                ]);
         if(!User::where('email',$request->email)->first()){
             $new=new User;
             $new->name=$request->name;
@@ -120,6 +127,10 @@ class UserController extends Controller
 
     public function comment(Request $request)
     {
+        $this->validate($request,[
+                'text'=>'required',
+
+                ]);
         $new=new Comment;
         $new->text=$request->text;
         $new->article_id=$request->id;

@@ -15,21 +15,24 @@
 
               <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-poçt" autofocus>
               </div>
+               @if($errors->has('email'))
+                  <p style="color:red;text-align: left"><b>E-poçt ünvanızı yazın.</b></p>
+                @endif
               <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input id="password" type="password" class="form-control" name="password" placeholder="Şifrə">              
+                <input id="password" type="password" class="form-control" name="password" placeholder="Şifrə">           
                
               </div>
-              @if($errors->has('password'))
-                  <p style="color:red;text-align: left">Şifrənizi yazın.</p>
-                @endif
-                @if($errors->has('email'))
-                  <p style="color:red;text-align: left">E-poçt ünvanızı yazın.</p>
-                @endif
+              
+               
+                @if($errors->has('password'))
+                  <p style="color:red;text-align: left"><b>Şifrənizi yazın.</b></p>
+                @endif  
             
               @if ($message = Session::get('wrong'))
                    <b style="color:red">{{ $message }}</b>
               @endif
+                  <br>
                  <br>
               <ul>
                 @if (Auth::guest())

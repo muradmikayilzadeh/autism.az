@@ -18,27 +18,28 @@
     <div class="container" >
       <form class="login-form"  method="POST" action="{{ url('/hekimler/checklogin') }}">
         {{ csrf_field() }}
-        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+        <div class="form-group">
           <div class="login-wrap" >
             <p class="login-img"><i class="icon_lock_alt"></i></p>
             <div class="input-group" >
 
                <span class="input-group-addon"><i class="icon_profile"></i></span>
 
-              <input required type="text" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-poçt" autofocus>
+              <input type="text" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-poçt" autofocus>
 
-              @if ($errors->has('email'))
-              <span class="help-block">
-                <strong>{{ $errors->first('email') }}</strong>
-              </span>
-              @endif
               </div>
-              <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+              @if($errors->has('email'))
+               <p style="color:red;text-align: left"><b>E-poçt ünvanınızı yazın.</b></p>
+              @endif
+              <div class="form-group">
               </div>
               <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input required id="password" type="password" class="form-control" name="password" placeholder="Şifrə">
+                <input id="password" type="password" class="form-control" name="password" placeholder="Şifrə">
               </div>
+              @if($errors->has('email'))
+               <p style="color:red;text-align: left"><b>Şifrənizi yazın.</b></p>
+              @endif
                <a href="{{ url('hekimler/login') }}"><button  class="btn btn-success btn-lg btn-block" type="submit">GİRİŞ</button></a>
               </ul>
             </div>

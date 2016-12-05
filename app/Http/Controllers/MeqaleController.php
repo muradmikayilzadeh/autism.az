@@ -87,6 +87,10 @@ class MeqaleController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate($request,[
+                'title'=>'required',
+                'text'=>'required',
+            ]);
         $meqale=Meqale::find($id);
 
         $meqale->title=$request->title;

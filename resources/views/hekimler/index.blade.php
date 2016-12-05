@@ -1,8 +1,9 @@
 @extends('layouts.hekim')
 @section('content')
 <style>
-	.img-circle{
+	.avatar{
 		height: 200px;
+		width: 200px;
 		box-shadow:0px 0px 5px black;
 	}
 	.about{
@@ -24,7 +25,7 @@
 
 		<div class="col-md-12" style="margin-top: 50px">
 			<div class="col-md-3">
-				<img src="{{$hekim->avatar}}" class="img img-circle">
+				<img src="{{$hekim->avatar}}" class="avatar img-circle">
 			</div>
 			
 			<div class="col-md-6">

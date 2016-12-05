@@ -33,7 +33,7 @@ use App\User;
 
 					</div>
 					<div class="photo col-md-9">
-						<img style="border:3px solid #008C99; border-radius: none;display: inline-block; margin-left: -220px;" src="../{{$meqale->picture}}" class="img img-responsive">
+						<img style="border:3px solid #008C99; border-radius: none;display: inline-block; float: left" src="../{{$meqale->picture}}" class="img img-responsive">
 					</div>
 					<div class="textAndPhoto col-md-12 text-left col-sm-12 col-xs-12">
 						<div class="row">
@@ -92,10 +92,16 @@ use App\User;
 							<form action="{{url('/comment-save')}}" method="post" style="margin-bottom: 30px" enctype="multipart/form-data">
 								<input type="hidden" name="_token" value="{{ csrf_token() }}">
 								<br>
-								<input required type="text" name="text" class="form-control"><br>
+								<input type="text" name="text" class="form-control"><br>
 								<input type="text" name="id" value="{{$meqale->id}}" class="hidden">
+								@if($errors->has('text'))
+						         <p style="color:red;text-align: left"><b>Xananı doldurun.</b></p>
+						        @endif
+						        
 								<input type="submit" class="btn btn-primary" value="Göndər">
+								
 							</form>
+
 						</div>
 					
 				</div>		

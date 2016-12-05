@@ -28,6 +28,9 @@
         .fa-btn {
             margin-right: 6px;
         }
+        .login-form{
+            margin-top: 120px;
+        }
     </style>
 </head>
 <body id="app-layout" class="login-img2-body">
