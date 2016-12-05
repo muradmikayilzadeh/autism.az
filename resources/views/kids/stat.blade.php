@@ -16,33 +16,41 @@ use App\User;
 		<div class="container text-center">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="row">
-					<div class="data col-md-3 col-sm-3 col-xs-3 text-center">
+				
+					<div class="data col-md-3 col-sm-3 col-xs-3 text-center" >
 						<a href="{{url('hekim',$hekim->id)}}">
-							<img style="border:3px solid #008C99; margin:5px 15px" src="../{{$hekim->avatar}}" alt="">
+							<img style="float:left;border:3px solid #008C99; margin-top: 5px" src="../{{$hekim->avatar}}" alt="">
 						</a>
-						<div class="date">
-							<p>{{$meqale->created_at->diffForHumans()}}</p>
+						<div class="date2 date">
+							<p>{{$meqale->created_at}}</p>
 						</div>
-						<div class="comments date">
+						<div class="comments2 comments date">
 							<span>{{count($comments)}}</span>
 							<p><i class="fa fa-comment"></i></p>
 						</div>
-						<div class="image date">
+						<div class="image2 image date">
 							<i class="fa fa-image"></i>
 						</div>
+
 					</div>
-					<div class="textAndPhoto col-md-7 text-left col-sm-9 col-xs-9">
+					<div class="photo col-md-9">
+						<img style="border:3px solid #008C99; border-radius: none;display: inline-block; margin-left: -220px;" src="../{{$meqale->picture}}" class="img img-responsive">
+					</div>
+					<div class="textAndPhoto col-md-12 text-left col-sm-12 col-xs-12">
 						<div class="row">
-							<img style="border:3px solid #008C99;" src="../{{$meqale->picture}}" class="img img-responsive">
+							
 							<a><h3><b>{{$meqale->title}}</b></h3></a>
+							
 							<p style="color:#878888">{{$meqale->text}}</p>
 							<a href="{{url('like-article',$meqale->id)}}" style="color:green">
 								<i class="fa fa-thumbs-o-up"></i>
 							</a>
 							<p style="color:#878888;display: inline-block;">{{count($rates)}} dəfə bəyənildi.</p>
 						</div>
+
 					</div>
 				</div>
+				
 			</div>
 		</div>
 

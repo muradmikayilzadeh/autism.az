@@ -16,5 +16,14 @@
 body{
 	font-family: tahoma;
 }
+@font-face {
+	font-family: 'Bubblegum Sans';
+	src: url('../../fonts/Lionelo-Paris.eot');
+	src: url('../../fonts/Lionelo-Paris.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Lionelo-Paris.woff') format('woff'),
+		url('../../fonts/Lionelo-Paris.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 

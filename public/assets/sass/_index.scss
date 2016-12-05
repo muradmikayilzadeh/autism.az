@@ -1,6 +1,7 @@
 $gray:#F0F3F3;
 $blue:#008C99;
 
+
 // SELECTION-------------------------------------------------
 ::selection{
 	background:$blue;
@@ -774,6 +775,44 @@ $blue:#008C99;
 					}
 				}
 				.image{
+					margin-bottom:20px;
+					&:after{
+						margin-top: 0px;
+					}
+				}
+
+
+
+
+
+				.date2{
+					margin:0;
+					float: none;
+					display: block;
+					margin:0 auto;
+					margin-top:20px;
+					p{
+						display: inline-block;
+						
+						float: none;
+					}
+					&:after{
+						content:"";
+						width: 14px;
+						height: 39px;
+						background:url("../images/arrow2.png");
+						transform:rotate(180deg);
+						float: right;
+						margin-right: -12px;
+						margin-top: 0;
+					}
+				}
+				.comments2{
+					&:after{
+						margin-top: 0;
+					}
+				}
+				.image2{
 					margin-bottom:20px;
 					&:after{
 						margin-top: 0px;

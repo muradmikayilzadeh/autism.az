@@ -788,6 +788,30 @@
           margin-bottom: 20px; }
           #blog .col-md-6 .col-md-3 .image:after {
             margin-top: 0px; }
+        #blog .col-md-6 .col-md-3 .date2 {
+          margin: 0;
+          float: none;
+          display: block;
+          margin: 0 auto;
+          margin-top: 20px; }
+          #blog .col-md-6 .col-md-3 .date2 p {
+            display: inline-block;
+            float: none; }
+          #blog .col-md-6 .col-md-3 .date2:after {
+            content: "";
+            width: 14px;
+            height: 39px;
+            background: url("../images/arrow2.png");
+            transform: rotate(180deg);
+            float: right;
+            margin-right: -12px;
+            margin-top: 0; }
+        #blog .col-md-6 .col-md-3 .comments2:after {
+          margin-top: 0; }
+        #blog .col-md-6 .col-md-3 .image2 {
+          margin-bottom: 20px; }
+          #blog .col-md-6 .col-md-3 .image2:after {
+            margin-top: 0px; }
       #blog .col-md-6 .textAndPhoto {
         margin: 0 12%; } }
 .box {
@@ -1267,5 +1291,12 @@ html, body {
 
 body {
   font-family: tahoma; }
+
+@font-face {
+  font-family: 'Bubblegum Sans';
+  src: url("../../fonts/Lionelo-Paris.eot");
+  src: url("../../fonts/Lionelo-Paris.eot?#iefix") format("embedded-opentype"), url("../../fonts/Lionelo-Paris.woff") format("woff"), url("../../fonts/Lionelo-Paris.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
 /*# sourceMappingURL=style.css.map */
