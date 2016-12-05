@@ -1,7 +1,6 @@
 @php
 use App\Comment;
 use App\User;
-//isle
 @endphp
 @extends('layouts.index')
 @section('content')

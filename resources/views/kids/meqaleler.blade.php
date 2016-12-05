@@ -14,7 +14,7 @@ use App\Hekimler;
 				<div class="data col-md-3 col-sm-3 col-xs-3 text-center">
 					<a href="{{url('hekim',$hekim->id)}}"><img src="{{$hekim->avatar}}" alt=""></a>
 					<div class="date">
-						<p>{{$meqale->created_at->diffForHumans()}}</p>
+						<p>{{$meqale->created_at}}</p>
 						
 					</div>
 					<div class="image date">
@@ -26,8 +26,9 @@ use App\Hekimler;
 						<img src="{{$meqale->picture}}" class="img img-responsive">
 						<a href="{{url('stat',$meqale->id)}}"><h3><b>{{$meqale->title}}</b></h3></a>
 						<p>{{substr($meqale->text,0,350)}}</p>
+						<a href="{{url('stat',$meqale->id)}}"><button >Ətraflı <i class="fa fa-chevron-right"></i></button></a>
 					</div>
-					<a href="{{url('stat',$meqale->id)}}"><button >Ətraflı <i class="fa fa-chevron-right"></i></button></a>
+					
 				</div>
 			</div>
 		</div>
