@@ -79,7 +79,7 @@
                 <i class="fa fa-link"></i>
             </div>
         </div>
-        
+        </section>
         <script>
             $(document).ready(function() {
                 $('button')
