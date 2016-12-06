@@ -40,6 +40,10 @@
               @if($errors->has('email'))
                <p style="color:red;text-align: left"><b>Şifrənizi yazın.</b></p>
               @endif
+              @if ($message = Session::get('wrong'))
+                   <b style="color:red">{{ $message }}</b>
+              @endif
+              <br><br>
                <a href="{{ url('hekimler/login') }}"><button  class="btn btn-success btn-lg btn-block" type="submit">GİRİŞ</button></a>
               </ul>
             </div>

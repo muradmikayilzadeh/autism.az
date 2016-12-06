@@ -31,6 +31,8 @@ class HekimController extends Controller
                         $_SESSION['hekimId']=$hekim->id;
                         
                         return redirect('/hekim-panel');
+                    }else{
+                        return back()->with('wrong','E-poçt və ya şifrə yanlışdır');
                     }
                 }
                 else{
@@ -43,6 +45,8 @@ class HekimController extends Controller
                         $_SESSION['hekimTrue']='hekimSistemde';
                         $_SESSION['hekimId']=$hekim->id;
                         return redirect('/hekim-panel');
+                    }else{
+                        return back()->with('wrong','E-poçt və ya şifrə yanlışdır');
                     }
             }
         }
